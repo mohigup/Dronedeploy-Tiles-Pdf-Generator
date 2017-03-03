@@ -51,8 +51,8 @@ helper:getDataURLUsingFileReader
 */
 function processTilesResponseAndSavePDF(tilesResponse) {
     const doc = new jsPDF()
-    const tiles = tilesResponse.tiles
     console.log(tilesResponse)
+    const tiles = tilesResponse.tiles
     for (let i = 0; i < tiles.length; i++) {
         getDataURLUsingFileReader(tiles[i], function(dataURL) {
             doc.addImage(dataURL, 'PNG', 15, 45)
