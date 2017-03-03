@@ -5,3 +5,4 @@ The app use jspdf to generate PDF which can be saved locally.
 
 Note:
 The Image URL were not retrieved because of 'Access-Control-Allow-Origin' header issue. It can be solved by setting up a custom proxy that sends requests for Image URl.
+However, for production fix, CORS headers has to be added to the backend server to allow cross origin access.
