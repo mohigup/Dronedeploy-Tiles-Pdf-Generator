@@ -63,7 +63,7 @@ function processTilesResponseAndSavePDF(tilesResponse) {
 
 
 /*
-Function to Convert image URL to image Base64 data url using Filereader
+Function to Convert image URL to  Base64 data url using Filereader
 FileReader 
 @param tile -url
 @param ouptput - callback called when url is converted
